@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #617371;
+  --secondary-color: #9ba6a2;
+  --accent-color: #cfc7bb;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1,
 h2,
 h3 {
   margin: 0;
@@ -26,6 +26,16 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  color: #464449;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  margin: 40px 30px;
 }
 
 .navigation-links {
@@ -43,7 +53,7 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
