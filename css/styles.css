@@ -104,6 +104,11 @@ a:hover {
   color: white;
 }
 
+.content-about img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -116,11 +121,11 @@ a:hover {
     font-size: 18px;
   }
 
-  .content-body {
+  .content-homepage {
     text-align: center;
   }
 
-  .content-body img {
+  .content-homepage img {
     display: none;
   }
 }
